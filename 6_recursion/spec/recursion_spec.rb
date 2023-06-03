@@ -3,8 +3,6 @@
 require_relative '../lib/recursion'
 
 RSpec.describe Enumerable do
-  # subject(:fibonacci) { [0, 1, 1, 2, 3, 5, 8, 13] }
-
   describe 'Fibonacci sequence using iteration' do
     it 'of size 0' do
       expect(fibs 0).to eq []
